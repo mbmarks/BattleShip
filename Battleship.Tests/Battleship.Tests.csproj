@@ -50,11 +50,16 @@
     <Compile Include="FireShotTests.cs" />
     <Compile Include="ShipPlacementTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CoordinateParseTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BattleShip.BLL\BattleShip.BLL.csproj">
       <Project>{f8b43da0-2853-4b79-8bfe-b25c658c4a9b}</Project>
       <Name>BattleShip.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BattleShip.UI\BattleShip.UI.csproj">
+      <Project>{63998525-a24e-447f-b35f-76096bfb8d6b}</Project>
+      <Name>BattleShip.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
