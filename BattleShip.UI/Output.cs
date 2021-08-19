@@ -20,7 +20,18 @@ namespace BattleShip.UI
 
         public void SplashScreen()
         {
+            Console.WriteLine(@" ________  ________  _________  _________  ___       _______   ________  ___  ___  ___  ________   ");
+            Console.WriteLine(@"|\   __  \|\   __  \|\___   ___\\___   ___\\  \     |\  ___ \ |\   ____\|\  \|\  \|\  \|\   __  \  ");
+            Console.WriteLine(@"\ \  \|\ /\ \  \|\  \|___ \  \_\|___ \  \_\ \  \    \ \   __/|\ \  \___|\ \  \\\  \ \  \ \  \|\  \ ");
+            Console.WriteLine(@" \ \   __  \ \   __  \   \ \  \     \ \  \ \ \  \    \ \  \_|/_\ \_____  \ \   __  \ \  \ \   ____\");
+            Console.WriteLine(@"  \ \  \|\  \ \  \ \  \   \ \  \     \ \  \ \ \  \____\ \  \_|\ \|____|\  \ \  \ \  \ \  \ \  \___|");
+            Console.WriteLine(@"   \ \_______\ \__\ \__\   \ \__\     \ \__\ \ \_______\ \_______\____\_\  \ \__\ \__\ \__\ \__\   ");
+            Console.WriteLine(@"    \|_______|\|__|\|__|    \|__|      \|__|  \|_______|\|_______|\_________\|__|\|__|\|__|\|__|   ");
+            Console.WriteLine(@"                                                                 \|_________|                      ");
+
+
             Console.WriteLine("Welcome to the game of Battleship!");
+
             PressKeyToContinue();
             Console.Clear();
         }
